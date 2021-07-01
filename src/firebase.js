@@ -1,14 +1,13 @@
 import firebase from 'firebase'
-
+// For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
-  apiKey: "AIzaSyC9CLV23G0g67UsNKcjq60vK3eGzVA0yZY",
-  authDomain: "bunch-o-lunch.firebaseapp.com",
-  databaseURL: "https://bunch-o-lunch.firebaseio.com",
-  projectId: "bunch-o-lunch",
-  storageBucket: "bunch-o-lunch.appspot.com",
-  messagingSenderId: "772754706495",
-  appId: "1:772754706495:web:f01bbbe025e8f75029288a",
-  measurementId: "G-B6W739N31G"
+  apiKey: "AIzaSyDbXPRttDcLtzboyS-h2Bjt5xxa_eSCoXo",
+  authDomain: "booking-b56cd.firebaseapp.com",
+  projectId: "booking-b56cd",
+  storageBucket: "booking-b56cd.appspot.com",
+  messagingSenderId: "18174470153",
+  appId: "1:18174470153:web:1fd019657a7896c06030d8",
+  measurementId: "G-X0F3J3X306"
 };
 
 // eslint-disable-next-line
