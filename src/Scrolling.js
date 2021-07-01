@@ -14,7 +14,7 @@ function Scrolling() {
 
       <div className="scrolling__secondPage">
         <h2>
-          We are the only first pure veg specialty hub. Serving vast range of
+          I are the only first pure veg specialty hub. Serving vast range of
           Indian Barbeque & Snacks in Veg Traditional Punjabi tasteful delights,
           serving royal Indian Punjabi Cuisines that has been rated as one of
           the finest chain across India.
