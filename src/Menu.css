@@ -1,0 +1,66 @@
+.menu {
+    display: flex;
+    flex-direction: row;
+}
+
+.menu__txt {
+    display: flex;
+    flex-direction: column;
+    flex: 0.5;
+    background-image: url("Media/menuPage.jpg");
+    background-attachment: fixed;
+    background-size: 65% 100%;
+}
+
+.menu__txt h1 {
+    font-size: 9em;
+    font-family: 'Cedarville Cursive', cursive;
+    margin-left: 5%;
+}
+
+.menu__txt h5 {
+    font-size: 1.3em;
+    font-family: 'Cedarville Cursive', cursive;
+    margin-left: 5%;
+}
+
+.menu__tag {
+    color: black;
+    font-weight: 800;
+    text-decoration: none;
+    width: 17%;
+    margin-left: 5%;
+}
+
+.menu__link:hover {
+    color: red;
+}
+
+.menu__card {
+    flex: 0.5;
+}
+
+.menu__card img {
+    height: 100%;
+    width: 100%;
+}
+
+@media screen and (max-width:960px) {
+    .menu {
+        flex-direction: column;
+    }
+    .menu__txt {
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+    }
+    .menu__txt h1 {
+        font-size: 5em;
+        font-family: 'Cedarville Cursive', cursive;
+        
+    }
+    .menu__txt h5 {
+        font-size: 1em;
+        font-family: 'Cedarville Cursive', cursive;
+        
+    }
+}

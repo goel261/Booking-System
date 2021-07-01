@@ -1,0 +1,48 @@
+.signin{
+    height: 100vh;
+    background-color: #f8f8f8;
+    display: grid;
+    place-items: center;
+}
+
+.signin__container{
+display: flex;
+  flex-direction: column;
+  padding: 75px;
+  text-align: center;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
+
+.signin__logo{
+    object-fit: contain;
+    height: 250px;
+    margin-top: -40px;
+}
+
+.signin__container > h1 {
+    font-family: 'Architects Daughter', cursive;
+    font-weight: 400;
+}
+
+.signin__container >  input {
+    margin: 5px;
+    height: 30px;
+}
+
+
+.signin__container > Button {
+    margin-top: 25px;
+    text-transform: inherit !important;
+    background-color: #0a8d48 !important;
+    color: white;
+  }
+  
+  .signin__container > Button:hover{
+    margin-top: 25px;
+    text-transform: inherit !important;
+    background-color: #0a8d48 !important;
+    color: white;
+  }
+  

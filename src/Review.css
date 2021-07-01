@@ -1,0 +1,66 @@
+.review{
+    width: 100%;
+    height: 100%;
+    overflow-y: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    background-image: url(https://i.pinimg.com/736x/fc/ad/c7/fcadc7d60ac774820fe31bf25b9c0d5c.jpg);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.review__form{
+    padding: 5%;
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    color: #bbf1fa;
+    color: aqua;
+    align-items: center;
+    background-color: rgb(4 11 31 / 57%);
+}
+
+.review__form > h1 {
+    font-family: 'Kaushan Script', cursive;
+    font-size: 3.5rem;
+}
+
+.review__button{
+    margin-top: 2%;
+    width: 60%;
+    background-color: #bbf1fa;
+    outline: none;
+    color: rgb(4, 11, 31);
+    font-weight: bold;
+    border-radius: 0.7rem;
+    padding: 2%;
+    transition: ease all 250ms;
+    border: unset;
+    font-size: 1.1rem;
+}
+
+.review__button:hover {
+    cursor: pointer;
+    color: #292929;
+    box-shadow: inset 3px 3px 5px rgba(0, 0, 0, 0.1),
+    inset -3px -3px 5px rgba(241, 255, 255, 0.5);
+  }
+
+.review__form label{
+    /* display: flex; */
+    /* width: 60%; */
+}
+
+@media screen and (max-width:600px)
+{
+    .review__form{
+        width: 70vw;
+        margin-right: 1.2rem;
+    }
+}
+
