@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./Footer.css";
-import footer__logo from "./Media/footer__logo.png";
+import footer__logo from "./Media/logo1.jpg";
 
 function Footer() {
   const e1 = "prabhjotlamba2001@gmail.com";
@@ -20,29 +20,10 @@ function Footer() {
       </div>
 
       <div className="footer__contact">
-        <h3>Developed By</h3>
+        <h3>Contact At:</h3>
         <hr class="purple" ></hr>
         <div className="footer__contact__details">
-          <div className="footer__contact__individual">
-            <h5>
-              Prabhjot Singh
-              <br />
-              <a
-                className={"contact__link__footer"}
-                href={`mailto: ${e1}`}
-                target={"_blank"}
-                rel="noopener noreferrer"
-              >
-                {e1}
-              </a>
-              <br />
-              <a className={"contact__link__footer"} href={`tel: ${n1}`}>
-                {n1}
-              </a>
-              <br />
-            </h5>
-          </div>
-
+          
           <div className="footer__contact__individual">
             <h5>
               Kshitij Goel
@@ -63,25 +44,7 @@ function Footer() {
             </h5>
           </div>
 
-          <div className="footer__contact__individual">
-            <h5>
-              Sumit Saurabh
-              <br />
-              <a
-                className={"contact__link__footer"}
-                href={`mailto: ${e3}`}
-                target={"_blank"}
-                rel="noopener noreferrer"
-              >
-                {e3}
-              </a>
-              <br />
-              <a className={"contact__link__footer"} href={`tel: ${n3}`}>
-                {n3}
-              </a>
-              <br />
-            </h5>
-          </div>
+       
         </div>
       </div>
 

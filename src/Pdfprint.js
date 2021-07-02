@@ -1,7 +1,7 @@
 import React from "react";
 import { useStateValue } from "./StateProvider";
 import Pdf from "react-to-pdf";
-import logo from "./Media/footer__logo.png";
+import logo from "./Media/logo1.jpg";
 import "./Pdfprint.css";
 
 const ref = React.createRef();

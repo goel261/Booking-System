@@ -2,7 +2,7 @@ import React from "react";
 import Header from "./Header";
 import "./App.css";
 import Scrolling from "./Scrolling";
-import Menu from "./Menu";
+import Menu from "./Images";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Review from "./Review";
 import Booking from "./Booking";
@@ -21,7 +21,7 @@ function App() {
     <Router>
       <div className="app">
         <Switch>
-          <Route path="/menu">
+          <Route path="/images">
             <Header />
             <Menu />
             <Footer />

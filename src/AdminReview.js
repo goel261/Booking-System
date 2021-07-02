@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { db } from "./firebase";
 import { useStateValue } from "./StateProvider";
-import logo from "./Media/logo.jpg";
+import logo from "./Media/logo1.jpg";
 import ShowReview from "./ShowReview";
 import { Link } from "react-router-dom";
 import PersonAddIcon from "@material-ui/icons/PersonAdd";

@@ -60,7 +60,7 @@ const Review = () => {
     <div className="review">
       <div className="review_fields">
         <form onSubmit={submitForm2} className="review__form">
-          <h1>Review </h1>
+          <h1>Feedback </h1>
 
           <InputField
             ref={inputRefs1.current[0]}

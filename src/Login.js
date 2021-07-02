@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./Login.css";
-import pic from "./Media/logo.jpg";
+import pic from "./Media/logo1.jpg";
 import { Button } from "@material-ui/core";
 import {auth} from "./firebase.js";
 import { useStateValue } from "./StateProvider";

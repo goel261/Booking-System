@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import VerifiedUserIcon from "@material-ui/icons/VerifiedUser";
 import "./Header.css";
-import logo from './Media/footer__logo.png'
+import logo from './Media/logo1.jpg'
 
 function Header() {
   return (
@@ -19,8 +19,8 @@ function Header() {
           <h5>Home</h5>
         </Link>
 
-        <Link className="header__middle__options" to="/menu">
-          <h5>Menu</h5>
+        <Link className="header__middle__options" to="/images">
+          <h5>Images</h5>
         </Link>
 
         <Link className="header__middle__options" to="/review">

@@ -3,7 +3,7 @@ import "./SignUp.css";
 import { Link, useHistory } from "react-router-dom";
 import { Button } from "@material-ui/core";
 import { auth } from './firebase';
-import logo from './Media/logo.jpg'
+import logo from './Media/logo1.jpg'
 
 function Login() {
 
