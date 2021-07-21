@@ -2,7 +2,6 @@ import React from "react";
 import Header from "./Header";
 import "./App.css";
 import Scrolling from "./Scrolling";
-import Menu from "./Images";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Review from "./Review";
 import Booking from "./Booking";
@@ -14,6 +13,28 @@ import Footer from "./Footer";
 import AdminReview from "./AdminReview";
 import Pdfprint from "./Pdfprint";
 
+import ImageGallery from 'react-image-gallery';
+
+import "~react-image-gallery/styles/scss/image-gallery.scss";
+
+
+import "~react-image-gallery/styles/css/image-gallery.css";
+
+const images = [
+  {
+    original: './src/Media/kingdom-of-dreams(2).jpg',
+    thumbnail: './src/Media/kingdom-of-dreams(2).jpg',
+  },
+  {
+    original: 'https://picsum.photos/id/1015/1000/600/',
+    thumbnail: 'https://picsum.photos/id/1015/250/150/',
+  },
+  {
+    original: 'https://picsum.photos/id/1019/1000/600/',
+    thumbnail: 'https://picsum.photos/id/1019/250/150/',
+  },
+];
+
 function App() {
   const [{ user, id }] = useStateValue();
 
@@ -23,7 +44,8 @@ function App() {
         <Switch>
           <Route path="/images">
             <Header />
-            <Menu />
+            <ImageGallery items={images} />
+            {/* <Menu /> */}
             <Footer />
           </Route>
 
