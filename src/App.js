@@ -13,12 +13,12 @@ import Footer from "./Footer";
 import AdminReview from "./AdminReview";
 import Pdfprint from "./Pdfprint";
 
-import ImageGallery from 'react-image-gallery';
+// import ImageGallery from 'react-image-gallery';
 
-import "~react-image-gallery/styles/scss/image-gallery.scss";
+// import "~react-image-gallery/styles/scss/image-gallery.scss";
 
 
-import "~react-image-gallery/styles/css/image-gallery.css";
+// import "~react-image-gallery/styles/css/image-gallery.css";
 
 const images = [
   {
@@ -44,8 +44,7 @@ function App() {
         <Switch>
           <Route path="/images">
             <Header />
-            <ImageGallery items={images} />
-            {/* <Menu /> */}
+            {/* <ImageGallery items={images} /> */}
             <Footer />
           </Route>
 

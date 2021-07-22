@@ -10,17 +10,17 @@ function Scrolling() {
         <div className="scrollFirstImage">
         {/* <img src={scrollFirst} alt="main page image" /> */}
         </div>
-      </div>
+      </div> 
 
       <div className="scrolling__secondPage">
         <h2>
-          Text1
+          Best place to hold any event!
         </h2>       
       </div>
 
       <div className="scrolling__thirdPage">
       <h2>
-          Text2
+          There are more than 24 different kinds of halls for different kinds of events. Contact Now for Bookings!
         </h2>
       </div>
 
