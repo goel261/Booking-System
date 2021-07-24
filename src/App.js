@@ -13,12 +13,6 @@ import Footer from "./Footer";
 import AdminReview from "./AdminReview";
 import Pdfprint from "./Pdfprint";
 
-// import ImageGallery from 'react-image-gallery';
-
-// import "~react-image-gallery/styles/scss/image-gallery.scss";
-
-
-// import "~react-image-gallery/styles/css/image-gallery.css";
 
 const images = [
   {
